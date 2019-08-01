@@ -5,5 +5,8 @@ import { storiesOf } from '@storybook/react';
 // import { linkTo } from '@storybook/addon-links';
 
 import App from '../App';
+import Item from '../components/Item';
 
-storiesOf('Example', module).add('empty', () => <App />);
+storiesOf('Example', module)
+  .add('first', () => <App />)
+  .add('second', () => <Item />);

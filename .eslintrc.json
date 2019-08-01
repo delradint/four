@@ -22,6 +22,7 @@
     "no-console": "off",
     "no-param-reassign": "off",
     "import/no-extraneous-dependencies": "off",
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "linebreak-style": "off"
   }
 }
